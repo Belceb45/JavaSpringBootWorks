@@ -1,0 +1,25 @@
+
+
+Que es un patrón de diseño?:
+     
+    - Plano que se puede personalizar para resolver un problema de diseño particular
+    de tu codigo. A menudo se confunden con algoritmos porque ambos conceptos describen soluciones
+    tipicas a problemas conocidos. Mientras que un algoritmo siempre define un grupo claro de 
+    acciones para lograr un objetivo, un patrón es una descripción de alto nivel a una solución.
+
+
+Tipos de patrones:
+
+1. Patrones Creacionales: Aquellos que nos proponen soluciones para problemas relacionados con lograr
+   instanciación de objetos. Limita la instanciación de una clase a un unico objeto al que se le pueda
+   acceder de manera global o usar un objeto como prototipo para crear otros objetos similares son 
+   algunos de los patrones Creacionales:
+
+        -Abtract Factory: Nos provee una interfaz que delega la creacion de una conjunto de objetos
+                          relacionados sin necesidad de especificar en ningun momento cuales son las
+                          implementaciones concretas.
+
+        -Factory Method:  Expone un metodo de creacion, delegado en las subclases la implementacion de 
+                          metodo.
+        
+        - Builder:        Separa la creacion de un objeto complejo
